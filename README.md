@@ -55,4 +55,21 @@ pdf_persona_analysis
   "job_to_be_done": "Understand key eligibility criteria, roles, skills required, and opportunities provided in JPMorgan's 2026 SEP Program"
 }
 ```
+# PDF Outline Extractor + persona extraction
+
+## How to Run
+
+```bash
+docker build --platform=linux/amd64 -t pdf-outline-extractor .
+docker run --rm -v $(pwd)/input:/app/input -v $(pwd)/output:/app/output --network none pdf-outline-extractor
+
+```
+## How to run after this
+
+.\run_extractor.ps1
+## then output goes to outputfolder_name.json
+
+## then run  
+python persona_relevance_extractor.py
+
 
