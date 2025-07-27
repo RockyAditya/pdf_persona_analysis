@@ -67,9 +67,9 @@ docker run --rm -v $(pwd)/input:/app/input -v $(pwd)/output:/app/output --networ
 ## How to run after this
 
 .\run_extractor.ps1
-## then output goes to outputfolder_name.json
+## Then output goes to outputfolder_name.json
 
-## then run  
+## Then run  
 python persona_relevance_extractor.py
 
 
