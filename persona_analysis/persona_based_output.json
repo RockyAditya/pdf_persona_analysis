@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "documents": [
+      "837880940-JPMorganChase-SEP-FT-Job-Description.json"
+    ],
+    "persona": "Undergraduate Computer Science Student",
+    "job_to_be_done": "Understand key eligibility criteria, roles, skills required, and opportunities provided in JPMorgan's 2026 SEP Program",
+    "timestamp": "2025-07-27T22:37:01.986603"
+  },
+  "extracted_sections": [
+    {
+      "document": "837880940-JPMorganChase-SEP-FT-Job-Description.json",
+      "page": 2,
+      "section_title": "Requiredcapabilitiesandskills",
+      "importance_rank": 2
+    },
+    {
+      "document": "837880940-JPMorganChase-SEP-FT-Job-Description.json",
+      "page": 2,
+      "section_title": "Requiredqualificationsandeligibilitycriteria",
+      "importance_rank": 2
+    },
+    {
+      "document": "837880940-JPMorganChase-SEP-FT-Job-Description.json",
+      "page": 2,
+      "section_title": "Preferredqualifications,capabilities,andskills",
+      "importance_rank": 2
+    }
+  ],
+  "sub_section_analysis": [
+    {
+      "document": "837880940-JPMorganChase-SEP-FT-Job-Description.json",
+      "page": 2,
+      "refined_text": "Requiredcapabilitiesandskills"
+    },
+    {
+      "document": "837880940-JPMorganChase-SEP-FT-Job-Description.json",
+      "page": 2,
+      "refined_text": "Requiredqualificationsandeligibilitycriteria"
+    },
+    {
+      "document": "837880940-JPMorganChase-SEP-FT-Job-Description.json",
+      "page": 2,
+      "refined_text": "Preferredqualifications,capabilities,andskills"
+    }
+  ]
+}
